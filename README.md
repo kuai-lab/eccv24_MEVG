@@ -1,4 +1,4 @@
-# MEVG: Multi-event Video Generation with Text-to-Video Models
+## MEVG: Multi-event Video Generation with Text-to-Video Models
 
 **European Conference on Computer Vision (ECCV) 2024**
 
