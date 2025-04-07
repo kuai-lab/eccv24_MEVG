@@ -10,8 +10,8 @@ Gyeongrok Oh, Jaehwan Jeong, Sieun Kim, Wonmin Byeon, Jinkyu Kim, Sungwoong Kim,
 
 This repository is the official implementation associated with the paper "MEVG: Multi-event Video Generation with Text-to-Video Models". 
 
-<a href="https://kuaicv.com/"><img height="50" src="imgs/korea_univ_logo.png"> </a> 
-<a href="https://deepmind.google/"><img height="50" src="imgs/nvidia_logo.png"> </a>
+<a><img height="50" src="imgs/korea_univ_logo.png"> </a> 
+<a><img height="50" src="imgs/nvidia_logo.png"> </a>
 
 **Abstract:** *We introduce a novel diffusion-based video generation method, generating a video showing multiple events given multiple individual sentences from the user. Our method does not require a large-scale video dataset since our method uses a pre-trained diffusion-based text-to-video generative model without a fine-tuning process. Specifically, we propose a last frame-aware diffusion process to preserve visual coherence between consecutive videos where each video consists of different events by initializing the latent and simultaneously adjusting noise in the latent to enhance the motion dynamic in a generated video. Furthermore, we find that the iterative update of latent vectors by referring to all the preceding frames maintains the global appearance across the frames in a video clip. To handle dynamic text input for video generation, we utilize a novel prompt generator that transfers course text messages from the user into the multiple optimal prompts for the text-to-video diffusion model. Extensive experiments and user studies show that our proposed method is superior to other video-generative models in terms of temporal coherency of content and semantics.*
 
